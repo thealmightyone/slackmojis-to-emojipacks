@@ -1,0 +1,25 @@
+{
+  "name": "slackmojis-to-emojipacks",
+  "version": "1.0.0",
+  "description": "Scrape [slackmojis.com](https://slackmojis.com) and turn them into yaml files for [Emojipacks](https://emojipacks.com).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thealmightyone/slackmojis-to-emojipacks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thealmightyone/slackmojis-to-emojipacks/issues"
+  },
+  "homepage": "https://github.com/thealmightyone/slackmojis-to-emojipacks#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "yamljs": "^0.3.0"
+  }
+}
